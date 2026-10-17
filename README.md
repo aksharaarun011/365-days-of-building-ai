@@ -60,3 +60,31 @@ I learned how to use Python conditions and loops to create an interactive chatbo
 - Add more responses.
 - Improve how unknown messages are handled.
 - Explore machine learning and build a model that learns from data.
+
+## Day 3: My First Machine Learning Model
+
+**Project:** Study-Hours Score Predictor
+
+### What I built
+- Created my first machine-learning model using Python and scikit-learn.
+- Used Linear Regression to learn a pattern from example data.
+- Trained the model using study hours and corresponding practice scores.
+- Predicted a score for a new input.
+- Inspected the learned coefficient and intercept.
+- Compared predictions with the training data.
+
+### What I learned
+- The difference between rule-based programming and machine learning.
+- Training data, model fitting, and predictions.
+- Linear regression and the equation `y = wx + b`.
+- Coefficients and intercepts.
+- How to use scikit-learn in Python.
+- Git commits, rebasing, and pushing code to GitHub.
+
+### Project file
+- `day03_first_ml_model.py`
+
+**Status:** Completed ✅
+
+**Note:** This project uses a small, invented dataset for learning. Its predictions are a demonstration and are not reliable estimates of real exam scores.
+
