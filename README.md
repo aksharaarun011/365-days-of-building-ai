@@ -88,3 +88,26 @@ I learned how to use Python conditions and loops to create an interactive chatbo
 
 **Note:** This project uses a small, invented dataset for learning. Its predictions are a demonstration and are not reliable estimates of real exam scores.
 
+
+## Day 4: Testing and Evaluating a Machine Learning Model
+
+**Project:** Evaluate a Linear Regression Model
+
+### What I built
+- Split a dataset into training and testing sets using `train_test_split`.
+- Trained a Linear Regression model using only the training data.
+- Predicted scores for unseen test examples.
+- Compared predictions with actual target values.
+- Calculated Mean Absolute Error (MAE) using scikit-learn.
+
+### What I learned
+- The difference between training data and test data.
+- Why test data should be kept separate during training.
+- How prediction errors are calculated.
+- How MAE summarizes the average absolute prediction error.
+- Why a small test set and artificial data do not prove real-world performance.
+
+### Project file
+- `day04_testing_ml_model.py`
+
+**Status:** Completed ✅
