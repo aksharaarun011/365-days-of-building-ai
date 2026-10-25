@@ -135,3 +135,29 @@ I learned how to use Python conditions and loops to create an interactive chatbo
 **Note:** The dataset uses artificial values for learning and does not reliably predict real exam scores.
 
 **Status:** Completed ✅
+
+## Day 6: Underfitting and Overfitting
+
+### What I learned
+- Understood the difference between underfitting and overfitting.
+- Used NumPy to prepare input features for a machine learning model.
+- Trained a Linear Regression model using scikit-learn.
+- Split data into training and testing sets.
+- Evaluated predictions using Mean Squared Error (MSE).
+- Compared training error with test error.
+- Learned why testing on unseen data is important.
+
+### Project
+Created `day06_underfitting_overfitting.py` to explore how a simple linear regression model performs when predicting squared values.
+
+### Experiment results
+- Training examples: 4
+- Number of features: 1
+- Training MSE: 1.0
+- Test MSE: 73.0
+
+The model underfits the squared pattern because it uses only the original input feature `x` rather than `x²`.
+
+### Key takeaway
+A model should be evaluated on unseen data, not just the data it was trained on. Training performance alone does not guarantee good predictions on new examples.
+
