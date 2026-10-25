@@ -111,3 +111,27 @@ I learned how to use Python conditions and loops to create an interactive chatbo
 - `day04_testing_ml_model.py`
 
 **Status:** Completed ✅
+
+## Day 5: Making Predictions with Machine Learning
+
+**Project:** Predicting Values with Linear Regression
+
+### What I built
+- Trained a Linear Regression model using scikit-learn.
+- Made predictions for individual and multiple inputs.
+- Accepted user input with Python's `input()` and `float()`.
+- Rounded predictions for cleaner output.
+
+### What I learned
+- How a trained model predicts values for new inputs.
+- The difference between training a model and using it for prediction.
+- Why scikit-learn expects input features in a 2D structure.
+- How to use `round()` to format floating-point predictions.
+- How to debug a machine learning input-shape error.
+
+### Project file
+- `day05_making_predictions.py`
+
+**Note:** The dataset uses artificial values for learning and does not reliably predict real exam scores.
+
+**Status:** Completed ✅
