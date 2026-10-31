@@ -161,3 +161,37 @@ The model underfits the squared pattern because it uses only the original input 
 ### Key takeaway
 A model should be evaluated on unseen data, not just the data it was trained on. Training performance alone does not guarantee good predictions on new examples.
 
+
+## Day 7 – Visualizing Predictions
+
+**Project:** Linear Regression with Visualization
+
+### Concepts Learned
+- Linear Regression
+- Model training using `fit()`
+- Predictions using `predict()`
+- Training and testing data splitting
+- Prediction errors
+- Mean Absolute Error (MAE)
+- Slope and intercept
+- Data visualization using Matplotlib
+
+### Implementation
+Built a Linear Regression model to predict examination scores based on study hours.
+
+### Model Equation
+y = 10x + 0
+
+### Results
+- Training observations: 4
+- Testing observations: 2
+- Testing MAE: 0.0
+- Predicted score for 7 study hours: 70
+
+### Libraries Used
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+### Key Learning
+Learned how to train a regression model, predict unseen data, evaluate prediction errors, and visualize predictions.
