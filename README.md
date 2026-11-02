@@ -195,3 +195,34 @@ y = 10x + 0
 
 ### Key Learning
 Learned how to train a regression model, predict unseen data, evaluate prediction errors, and visualize predictions.
+
+## Day 8 – Exploring Datasets with Pandas
+
+**Project:** Exploring a Student Performance Dataset
+
+### Concepts Learned
+- Introduction to Pandas
+- Creating DataFrames
+- Exploring datasets using head() and tail()
+- Understanding dataset shape and columns
+- Inspecting data using info()
+- Statistical analysis using describe()
+- Selecting individual and multiple columns
+- Understanding features (X) and target (y)
+- Calculating the mean
+
+### Implementation
+Created a student dataset containing study hours and marks. Used Pandas to explore the dataset, understand its structure, select features and target, and calculate average marks.
+
+### Results
+- Number of rows: 5
+- Number of columns: 3
+- Feature: Study_Hours
+- Target: Marks
+- Average marks: 30.0
+
+### Libraries Used
+- Pandas
+
+### Key Learning
+Learned how to create, inspect, and analyze datasets using Pandas and prepare features and targets for machine learning.
