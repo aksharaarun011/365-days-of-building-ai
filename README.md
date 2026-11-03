@@ -226,3 +226,33 @@ Created a student dataset containing study hours and marks. Used Pandas to explo
 
 ### Key Learning
 Learned how to create, inspect, and analyze datasets using Pandas and prepare features and targets for machine learning.
+
+## Day 9 – Handling Missing Data with Pandas
+
+**Project:** Identifying and Handling Missing Values
+
+### Concepts Learned
+- Understanding missing data (NaN)
+- Identifying missing values using isnull()
+- Counting missing values using sum()
+- Removing missing values using dropna()
+- Replacing missing values using fillna()
+- Calculating averages using mean()
+
+### Implementation
+Created a student dataset containing missing values. Identified missing entries, removed incomplete rows, and replaced missing numerical values using column averages.
+
+### Results
+- Original records: 5
+- Missing Study_Hours values: 1
+- Missing Marks values: 1
+- Records after dropna(): 3
+- Records after fillna(): 5
+- Replaced Study_Hours with: 3.0
+- Replaced Marks with: 27.5
+
+### Library Used
+- Pandas
+
+### Key Learning
+Learned how to identify, remove, and replace missing values to prepare datasets for machine learning.
