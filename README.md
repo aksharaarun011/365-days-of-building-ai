@@ -256,3 +256,31 @@ Created a student dataset containing missing values. Identified missing entries,
 
 ### Key Learning
 Learned how to identify, remove, and replace missing values to prepare datasets for machine learning.
+
+
+## Day 10 – Feature Scaling
+
+**Project:** Applying Feature Scaling to a Student Dataset
+
+### Concepts Learned
+- Understanding feature scaling
+- Min-Max Scaling
+- Standardization
+- Using MinMaxScaler
+- Using StandardScaler
+- Understanding mean and standard deviation
+
+### Implementation
+Created a student dataset and applied Min-Max Scaling and Standardization using Scikit-learn.
+
+### Results
+- Min-Max scaled values ranged from 0 to 1.
+- Standardized values were centered around 0.
+- Successfully applied both scaling techniques.
+
+### Libraries Used
+- Pandas
+- Scikit-learn
+
+### Key Learning
+Learned how feature scaling transforms numerical features into comparable scales before applying suitable machine learning algorithms.
