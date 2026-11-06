@@ -284,3 +284,32 @@ Created a student dataset and applied Min-Max Scaling and Standardization using 
 
 ### Key Learning
 Learned how feature scaling transforms numerical features into comparable scales before applying suitable machine learning algorithms.
+
+## Day 11 – Encoding Categorical Data
+
+**Project:** Converting Categorical Data into Numerical Data
+
+### Concepts Learned
+- Understanding categorical data
+- Label Encoding
+- One-Hot Encoding
+- Ordinal and Nominal data
+- Using LabelEncoder
+- Using Pandas get_dummies()
+
+### Implementation
+Created a student dataset containing categorical subject information. Applied Label Encoding to convert subjects into numerical values and One-Hot Encoding to create separate binary columns.
+
+### Results
+- English: 0
+- Maths: 1
+- Science: 2
+- Successfully created three One-Hot Encoded columns.
+- Converted categorical text into numerical representations.
+
+### Libraries Used
+- Pandas
+- Scikit-learn
+
+### Key Learning
+Learned how to convert categorical data into numerical representations so that machine learning algorithms can process it.
