@@ -313,3 +313,24 @@ Created a student dataset containing categorical subject information. Applied La
 
 ### Key Learning
 Learned how to convert categorical data into numerical representations so that machine learning algorithms can process it.
+
+## Day 12 - Detecting and Handling Outliers
+
+### Topics Learned
+- Understanding outliers
+- Quartiles (Q1 and Q3)
+- Interquartile Range (IQR)
+- Detecting outliers using the IQR method
+- Visualizing outliers using boxplots
+- Handling outliers using capping
+
+### Practical Implementation
+- Created a dataset using Pandas.
+- Calculated Q1, Q3 and IQR.
+- Identified potential outliers using lower and upper bounds.
+- Visualized outliers using Matplotlib.
+- Applied capping using the clip() method.
+
+### Key Learning
+Outliers are unusual values that can affect machine learning models.
+They should be investigated before removing or modifying them.
