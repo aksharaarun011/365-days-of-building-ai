@@ -334,3 +334,24 @@ Learned how to convert categorical data into numerical representations so that m
 ### Key Learning
 Outliers are unusual values that can affect machine learning models.
 They should be investigated before removing or modifying them.
+
+
+## Day 13 - Complete Data Preprocessing Workflow
+
+### Topics Learned
+- Dataset exploration using Pandas
+- Handling missing values using fillna()
+- Removing duplicate records
+- Detecting outliers using IQR
+- Handling outliers using capping
+- One-Hot Encoding
+- Feature Scaling using MinMaxScaler
+- Final dataset verification
+
+### Practical Implementation
+Created a complete data preprocessing workflow
+using a manually created student dataset.
+
+### Key Learning
+Data preprocessing prepares raw data for
+machine learning by cleaning and transforming it.
