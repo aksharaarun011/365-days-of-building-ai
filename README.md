@@ -355,3 +355,30 @@ using a manually created student dataset.
 ### Key Learning
 Data preprocessing prepares raw data for
 machine learning by cleaning and transforming it.
+
+
+## Day 14 - Student Data Cleaner Mini Project
+
+### Topics Learned
+- Dataset exploration using Pandas
+- Handling missing values
+- Detecting and handling outliers using IQR
+- One-Hot Encoding
+- Feature Scaling using MinMaxScaler
+- Final dataset verification
+
+### Mini Project
+Created a Student Data Cleaner using Python,
+Pandas, NumPy and Scikit-learn.
+
+### Final Results
+- 10 rows and 6 columns
+- No missing values
+- No duplicate rows
+- Outliers handled
+- Categorical data encoded
+- Numerical features scaled
+
+### Key Learning
+Data preprocessing transforms raw data into
+a clean format suitable for machine learning.
