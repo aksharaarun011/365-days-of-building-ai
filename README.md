@@ -414,3 +414,22 @@ Learned how Linear Regression identifies relationships in data and uses them to 
 
 ### Project Progress
 Successfully built the first working prediction model for Student Performance AI. More features and a user interface will be added in upcoming days.
+
+## Day 16 - Understanding Cost Function (MSE)
+
+### Topics Learned
+- Cost Function
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Evaluating Regression Models
+
+### Implementation
+- Added MSE calculation to Student Performance AI.
+- Compared actual and predicted marks.
+- Evaluated model performance using MAE and MSE.
+
+### Key Learning
+Learned how MAE and MSE measure prediction errors and how cost functions help evaluate machine learning models.
+
+### Project Progress
+Improved the Student Performance AI model by adding another evaluation metric.

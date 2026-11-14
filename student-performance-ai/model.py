@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
 
 # 1. Create student dataset
 data = {
@@ -42,7 +43,9 @@ print("Predicted Marks for 7 hours:", prediction[0])
 test_predictions = model.predict(X_test)
 
 mae = mean_absolute_error(y_test, test_predictions)
-
 print("Actual Test Marks:", list(y_test))
 print("Predicted Test Marks:", test_predictions)
 print("Testing MAE:", mae)
+
+mse = mean_squared_error(y_test, test_predictions)
+print("Testing MSE:", mse)
