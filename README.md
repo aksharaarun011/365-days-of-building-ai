@@ -382,3 +382,35 @@ Pandas, NumPy and Scikit-learn.
 ### Key Learning
 Data preprocessing transforms raw data into
 a clean format suitable for machine learning.
+
+## Day 15 - Student Performance AI (Part 1)
+
+### Topics Learned
+- Linear Regression
+- Slope and Intercept
+- Model Training using `fit()`
+- Predictions using `predict()`
+- Mean Absolute Error (MAE)
+- Training and Testing Data
+- Train-Test Split
+
+### Project
+Started building Student Performance AI, a machine learning application that predicts student marks based on study hours.
+
+### Implementation
+- Created a student dataset using Pandas.
+- Trained a Linear Regression model using Scikit-learn.
+- Predicted marks for new students.
+- Evaluated predictions using MAE.
+- Split the dataset into training and testing sets.
+
+### Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+
+### Key Learning
+Learned how Linear Regression identifies relationships in data and uses them to make numerical predictions.
+
+### Project Progress
+Successfully built the first working prediction model for Student Performance AI. More features and a user interface will be added in upcoming days.
