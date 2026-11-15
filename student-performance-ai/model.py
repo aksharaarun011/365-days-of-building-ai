@@ -36,7 +36,6 @@ print("Intercept:", model.intercept_)
 # 6. Predict marks for a new student
 new_student = pd.DataFrame({"Study_Hours": [7]})
 prediction = model.predict(new_student)
-
 print("Predicted Marks for 7 hours:", prediction[0])
 
 # 7. Test model accuracy

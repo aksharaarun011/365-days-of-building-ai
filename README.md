@@ -433,3 +433,32 @@ Learned how MAE and MSE measure prediction errors and how cost functions help ev
 
 ### Project Progress
 Improved the Student Performance AI model by adding another evaluation metric.
+
+## Day 17 - Implementing Gradient Descent
+
+### Topics Learned
+- Gradient Descent
+- Learning Rate
+- Iterations
+- Gradients
+- Parameter Optimization
+- Cost Function (MSE)
+
+### Implementation
+- Implemented Gradient Descent manually using NumPy.
+- Created prediction and cost functions.
+- Updated slope and intercept using calculated gradients.
+- Tracked MSE during training.
+- Visualized actual data and the predicted regression line using Matplotlib.
+
+### Results
+- Final Slope: 9.9759
+- Final Intercept: 0.0870
+- Predicted Marks for 7 Hours: 69.9183
+- Final MSE: 0.00138
+
+### Key Learning
+Learned how Gradient Descent adjusts model parameters step by step to minimize prediction errors.
+
+### Project Progress
+Implemented a manual Gradient Descent algorithm for the Student Performance AI project.
