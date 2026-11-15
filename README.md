@@ -462,3 +462,27 @@ Learned how Gradient Descent adjusts model parameters step by step to minimize p
 
 ### Project Progress
 Implemented a manual Gradient Descent algorithm for the Student Performance AI project.
+
+### Day 18: Model Evaluation
+
+**Topics Learned:**
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score (Coefficient of Determination)
+- Evaluating Linear Regression models
+
+**Implementation:**
+- Added MAE, MSE, RMSE and R² evaluation to the Student Performance AI project.
+- Evaluated predictions using test data.
+- Increased dataset size to obtain a meaningful R² calculation.
+
+**Evaluation Results:**
+- MAE: 0.8361
+- MSE: 0.8225
+- RMSE: 0.9069
+- R² Score: 0.9994
+
+**Key Takeaway:**
+
+Learned how to measure prediction errors and evaluate the performance of a machine learning regression model.
