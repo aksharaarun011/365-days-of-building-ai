@@ -486,3 +486,32 @@ Implemented a manual Gradient Descent algorithm for the Student Performance AI p
 **Key Takeaway:**
 
 Learned how to measure prediction errors and evaluate the performance of a machine learning regression model.
+
+### Day 19: Introduction to Streamlit – Building the First UI
+
+**Topics Learned:**
+- Introduction to Streamlit
+- Installing and running Streamlit
+- Creating interactive web applications using Python
+- Page configuration using `st.set_page_config()`
+- Displaying titles, text and messages
+- Creating number input fields using `st.number_input()`
+- Creating buttons using `st.button()`
+- Conditional execution using `if`
+- Displaying success messages using `st.success()`
+
+**Implementation:**
+- Created `app.py` for the Student Performance AI project.
+- Built the first interactive webpage.
+- Added Study Hours input.
+- Added Attendance Percentage input.
+- Added a Submit button.
+- Displayed submitted student details.
+
+**Key Takeaway:**
+
+Learned how to transform a Python program into an interactive web application using Streamlit.
+
+**Project Progress:**
+
+Successfully created the first working UI for Student Performance AI.
